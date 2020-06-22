@@ -15,10 +15,12 @@ public:
 	// Sets default values for this actor's properties
 	AFloater();
 
+	//TESTING GIT
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "ActorMeshComponents")
 	UStaticMeshComponent* StaticMeshy;
 
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Floater Variables")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Floater Variables")
 	FVector InitialLocation;
 
 	// Location when dragged.
